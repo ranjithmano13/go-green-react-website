@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/go-green-react-website/static/css/main.bd893477.css",
-    "main.js": "/go-green-react-website/static/js/main.fec8e734.js",
+    "main.css": "/go-green-react-website/static/css/main.e026628a.css",
+    "main.js": "/go-green-react-website/static/js/main.aaae06ea.js",
     "static/media/renew.mp4": "/go-green-react-website/static/media/renew.b49a151085c61bf80c2f.mp4",
-    "static/media/renew720.mp4": "/go-green-react-website/static/media/renew720.37bb12335be1bc4fa90d.mp4",
-    "static/media/renew480.mp4": "/go-green-react-website/static/media/renew480.c4f06d9962bdecd3d683.mp4",
     "static/media/homeVidSnap.png": "/go-green-react-website/static/media/homeVidSnap.561a35f58bb82bec1188.png",
+    "static/media/logo.jpg": "/go-green-react-website/static/media/logo.b57e9efbf6a108d009c5.jpg",
     "index.html": "/go-green-react-website/index.html",
-    "main.bd893477.css.map": "/go-green-react-website/static/css/main.bd893477.css.map",
-    "main.fec8e734.js.map": "/go-green-react-website/static/js/main.fec8e734.js.map"
+    "main.e026628a.css.map": "/go-green-react-website/static/css/main.e026628a.css.map",
+    "main.aaae06ea.js.map": "/go-green-react-website/static/js/main.aaae06ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd893477.css",
-    "static/js/main.fec8e734.js"
+    "static/css/main.e026628a.css",
+    "static/js/main.aaae06ea.js"
   ]
 }
