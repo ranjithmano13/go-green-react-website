@@ -1,0 +1,62 @@
+
+.hero_section{
+    margin-top: 4em;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1em;
+}
+.hero-text{
+    margin-bottom: 0 ;
+    font-family: var(--font-hero);
+    font-weight: 900;
+    font-size: 72px;
+    color: #fff;
+    letter-spacing: 0.04em;
+    text-shadow: 1px 7px 10px black;
+}
+
+.hero-sub{
+    margin-top: 0em;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 900;
+    font-size: 96px;
+    color: green;
+    text-shadow: 1px 10px 10px black;
+
+}
+
+.hero-quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 5rem;
+    padding: 0 2rem;
+    border: 5px solid green;
+    color: #FFF;
+    backdrop-filter: blur(2px);
+    letter-spacing: 0.04em;
+    word-spacing: 0.07em;
+}
+
+.hero-quote p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 1.5em;
+    text-shadow: 1px 7px 10px black;
+
+}
+
+.hero-quote h3{
+   font-family: 'Roboto Slab', serif;
+   font-size: 28px;
+   color: green;
+   font-weight: bold;
+   text-shadow: 1px 7px 10px black;
+
+}
