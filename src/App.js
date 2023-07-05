@@ -1,15 +1,42 @@
 import "./App.css";
-import { homeVid, images } from "./constants";
+import { homeVid, images ,homeVid1,homeVid2} from "./constants";
+import { useEffect, useRef } from 'react';
 
 function App() {
+  const videoRef = useRef(null);
+
+  useEffect(() => {
+    const videoElement = videoRef.current;
+
+    const handleIntersection = (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          videoElement.play();
+        } else {
+          videoElement.pause();
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(handleIntersection);
+
+    observer.observe(videoElement);
+
+    return () => {
+      observer.unobserve(videoElement);
+    };
+  }, []);
+
   return (
     <div className="App">
       <div className="app__video">
         <video
+          ref={videoRef}
           src={homeVid}
           type="video/mp4"
-          loop={true}
-          autoPlay={true}
+          poster={images.homeVidSnap}
+          loop
+          muted
         />
       </div>
     </div>
@@ -17,3 +44,5 @@ function App() {
 }
 
 export default App;
+
+
