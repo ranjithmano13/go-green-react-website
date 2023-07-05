@@ -11,3 +11,19 @@
     height: 100%;
     object-fit: cover;
 }
+.hero_section{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.hero-text{
+    font-family: var(--font-hero);
+    font-weight: bolder;
+    font-size: 48px;
+    color: #fff;
+    letter-spacing: 0.04em;
+    text-shadow: 1px 7px 3px black;
+}

@@ -39,6 +39,9 @@ function App() {
           muted
         />
       </div>
+      <section className="hero_section">
+        <h1 className="hero-text">The World is not Yours Alone!</h1>
+      </section>
     </div>
   );
 }

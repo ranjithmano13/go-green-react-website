@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Raleway:wght@200;300;400;500&family=Roboto+Slab:wght@300;400;500;600&family=Roboto:wght@300;400;500;700&family=Rubik+Mono+One&display=swap');
+
+code{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Rubik Mono One', sans-serif;
+}
+
+
+:root{
+    --font-hero :'Rubik Mono One', sans-serif;
+}
