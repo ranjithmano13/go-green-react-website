@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/go-green-react-website/static/css/main.dc2f685e.css",
+    "main.js": "/go-green-react-website/static/js/main.6b729514.js",
+    "static/media/renew.mp4": "/go-green-react-website/static/media/renew.b49a151085c61bf80c2f.mp4",
+    "static/media/homeVidSnap.png": "/go-green-react-website/static/media/homeVidSnap.561a35f58bb82bec1188.png",
+    "index.html": "/go-green-react-website/index.html",
+    "main.dc2f685e.css.map": "/go-green-react-website/static/css/main.dc2f685e.css.map",
+    "main.6b729514.js.map": "/go-green-react-website/static/js/main.6b729514.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc2f685e.css",
+    "static/js/main.6b729514.js"
+  ]
+}
